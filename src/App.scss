@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+.WelcomeBlock {
+    background-color: #2a292e;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    height: 785px;
+    &_Logo {
+        width: 410px;
+        height: 491px;
+        img {
+            width: 100%;
+            height: 100%; 
+        }
+    }
+    &_Text {
+        color: #e54b4e;
+        font-family: "Poiret One";
+        font-size: 122px;
+        font-weight: 400;
+    }
+}
+
+.SecondBlock {
+    height: 701px;
+    background-color: #efeae7;
+    position: relative;
+    &_Crosses {
+        position: absolute;
+        width: 690px;
+        height: 236px;
+        top: -6px;
+        left: 42px;
+        img {
+            width: 100%;
+            height: 100%; 
+        }
+    }
+    &_Content {
+        position: absolute;
+        top: 115px;
+        width: 1200px;
+        height: 507px;
+        display: flex;
+        position: relative;
+        .RedRectangle {
+            width: 42px;
+            height: 100%;
+            background-color: #e54b4e;
+        }
+        .MainImage {
+            height: 100%;
+            width:  700px;
+            img {
+                width: 100%;
+                height: 100%; 
+            };
+        }
+        .SecondBlockText {
+            position: absolute;
+            height: 100%;
+            width:  900px;
+            left: 292px;
+            img {
+                width: 100%;
+                height: 100%; 
+            };
+        }
+    }  
+}
+
+.Services {
+    position: relative;
+    display: flex;
+    padding-top: 180px;
+    height: 622px;
+    background-color: #e54b4e;
+    font-family: "Poiret One";
+    font-size: 58px;
+    text-align: center;
+    color: white;
+    .Creative {
+        position: relative;
+        padding-top: 40px;
+        width: 290px;
+        margin-left: 70px;
+        
+    }
+    .Performance {
+        position: relative;
+        width: 385px;
+        margin-left: 92px;
+    }
+    .Producing {
+        position: relative;
+        padding-top: 150px;
+        width: 330px;
+        margin-left: 63px;
+    }
+    &_Content {
+        color: #2a292e;
+        font-family: "Poiret One";
+        font-size: 29px;
+        font-weight: 400;
+        padding: 13px;
+        position: absolute;
+        background-color: white;
+        color: black;
+    }
+    &_active {
+        .Services_Header {
+            background-color: #2a292e;
+        }
+    }
+    
+}
+
+.ClickBlock {
+    background-color: white;
+    width: 100%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+        height: 58px;
+
+    }
+}
+
+.crosses1 {
+    position: absolute;
+    bottom: 0;
+    left: 76px;
+    img {
+      width: 270px;  
+    }
+}
+.crosses2 {
+    position: absolute;
+    bottom: 0;
+    left: 450px;
+    img {
+      width: 360px;  
+      height: 500px;
+    }
+}
+.crosses3 {
+    position: absolute;
+    left: 883px;
+    bottom: 0;
+    img {
+     width: 315px;
+    }
+}
+.BigLogoSection {
+    width: 1200px;
+    height: 1328px;
+    img {
+        width: 100%;
+        height: 100&;
+    }
+}
+.About {
+    background-color: #2a292e;
+    height: 2690px;
+}
+
+.WeCan {
+    padding-top: 92px;
+    &_Logo {
+        position: relative;
+    }
+    &_Block {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        padding: 3px 26px 8px 26px;
+        font-family: "Poiret One";
+        background-color: #efeae7;
+        color: #2a292e;
+        font-size: 81px;
+        &-red {
+            background-color: #e54b4e;
+            position: absolute;
+            top: 28px;
+            right: 0;
+            width: 700px;
+        }
+        &-1 {
+            width: 440px;
+        }
+        &-3 {
+            width: 740px;
+            transform: translate(0, -20px);
+        }
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    
+}
+
+.AboutCompany {
+    padding-top: 131px;
+    &_HeaderSupport {
+        display: flex;
+    }
+    &_Header {
+        color: #ffffff;
+        font-family: "Poiret One";
+        font-size: 85px;
+        white-space: nowrap;
+        &-1 {
+            transform: translate(-30px, 0);
+        }
+        &-2 {
+            overflow: hidden;
+        }
+    }
+    &_Content {
+        padding: 60px 115px;
+        display: flex;
+        justify-content: space-between;
+        .Photo {
+            width: 291px;
+            height: 479px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .TextSupport {
+            width: 627px;
+            height: 381px;
+            .Text {
+                color: #efeae7;
+                font-family: "Poiret One";
+                font-size: 20px;
+                .fingerprint {
+                    width: 106px;
+                    height: 141px;
+                    padding: 25px;
+                    float: right;
+                }
+            }
+            .Contacts {
+                display: flex;
+                margin-top: 19px;
+                .Contact {
+                    padding-right: 27px;
+                    width: 48px;
+                    height: 48px;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        
+    }
+}
