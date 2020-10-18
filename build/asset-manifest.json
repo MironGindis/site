@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/site/static/css/main.f6af3650.chunk.css",
+    "main.js": "/site/static/js/main.308d88cd.chunk.js",
+    "main.js.map": "/site/static/js/main.308d88cd.chunk.js.map",
+    "runtime-main.js": "/site/static/js/runtime-main.0e2b5872.js",
+    "runtime-main.js.map": "/site/static/js/runtime-main.0e2b5872.js.map",
+    "static/js/2.c171652c.chunk.js": "/site/static/js/2.c171652c.chunk.js",
+    "static/js/2.c171652c.chunk.js.map": "/site/static/js/2.c171652c.chunk.js.map",
+    "index.html": "/site/index.html",
+    "precache-manifest.ce49690dabb315aa34ec699b22c08aaf.js": "/site/precache-manifest.ce49690dabb315aa34ec699b22c08aaf.js",
+    "service-worker.js": "/site/service-worker.js",
+    "static/css/main.f6af3650.chunk.css.map": "/site/static/css/main.f6af3650.chunk.css.map",
+    "static/js/2.c171652c.chunk.js.LICENSE.txt": "/site/static/js/2.c171652c.chunk.js.LICENSE.txt",
+    "static/media/DownArrow.svg": "/site/static/media/DownArrow.2f4fcdbe.svg",
+    "static/media/Photo.png": "/site/static/media/Photo.03d1aedc.png",
+    "static/media/biglogosection.svg": "/site/static/media/biglogosection.5a994720.svg",
+    "static/media/crosses1.svg": "/site/static/media/crosses1.19599e4f.svg",
+    "static/media/crosses2.svg": "/site/static/media/crosses2.e5cebd0b.svg",
+    "static/media/crosses3.svg": "/site/static/media/crosses3.a8efdc70.svg",
+    "static/media/fingerprint.svg": "/site/static/media/fingerprint.081c64cb.svg",
+    "static/media/instlogo.svg": "/site/static/media/instlogo.e4148c1f.svg",
+    "static/media/mainlogo.svg": "/site/static/media/mainlogo.fb8377a5.svg",
+    "static/media/redlogo.svg": "/site/static/media/redlogo.3be645a8.svg",
+    "static/media/secondblockClosses.svg": "/site/static/media/secondblockClosses.8e3a71db.svg",
+    "static/media/secondblockText.svg": "/site/static/media/secondblockText.d435a9a3.svg",
+    "static/media/secondblockbg.jpg": "/site/static/media/secondblockbg.cc36ec1d.jpg",
+    "static/media/wecan.svg": "/site/static/media/wecan.a9f82353.svg",
+    "static/media/whitelogo.svg": "/site/static/media/whitelogo.a8e84b45.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e2b5872.js",
+    "static/js/2.c171652c.chunk.js",
+    "static/css/main.f6af3650.chunk.css",
+    "static/js/main.308d88cd.chunk.js"
+  ]
+}
